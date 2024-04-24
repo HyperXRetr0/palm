@@ -71,7 +71,7 @@ const Dashboard = () => {
               <ChartComp signDataList={signDataList} />
 
               <div className="signlang_leader-board">
-                <h2 className="gradient__text title">Our Top Users</h2>
+                <h2 className="gradient__text title">Leaderboard</h2>
                 <div className="signlang_toprank-box">
                   {topUsers.map((user, index) => (
                     <div className="signlang_tank-row" key={index * 786}>

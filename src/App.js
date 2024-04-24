@@ -39,7 +39,7 @@ function App() {
 
         <Route
           exact
-          path="/detect"
+          path="/practice"
           element={
             <Layout>
               <Detect />

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import SignHand from "../../assests/SignHand.png";
+import hand from "../../assests/hand.gif";
 import star from "../../assests/star.png";
 
 const Header = () => {
@@ -20,7 +20,7 @@ const Header = () => {
         </p>
       </div>
       <div className="signlang__header-image">
-        <img src={SignHand} alt="SIGN-HAND" />
+        <img src={hand} alt="SIGN-HAND" />
       </div>
     </div>
   );

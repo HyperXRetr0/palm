@@ -24,11 +24,7 @@ const Guide = () => {
         <div className="signlang_imagelist-container">
           <div className="signlang_image-div">
             {currentImage ? (
-              <img
-                src={currentImage.url}
-                alt={`img ${currentImage.id}`}
-                className="previewImage"
-              />
+              <img src={currentImage.url} alt={currentImage.name} />
             ) : (
               <h3 className="gradient__text">
                 Please wait while we are generating the images for you...
