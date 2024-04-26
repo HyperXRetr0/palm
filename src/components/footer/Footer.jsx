@@ -11,7 +11,6 @@ const Footer = () => {
 
       <div className="signlang__footer-copyright">
         <h3>
-          {/* &nbsp;Made With Love &nbsp;&nbsp; */}
           <span>Made With Love</span>
           <br />
           By Group 29

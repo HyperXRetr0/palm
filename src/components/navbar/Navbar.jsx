@@ -58,10 +58,6 @@ const Navbar = ({ notifyMsg }) => {
             <Link to="/practice">Practice</Link>
           </p>
 
-          {/* <p>
-            <Link to="/guide">Guide</Link>
-          </p> */}
-
           {accessToken && (
             <p>
               <Link to="/dashboard">Dashboard</Link>
